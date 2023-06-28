@@ -1,0 +1,70 @@
+body {
+  display: grid;
+  background: whitesmoke;
+}
+
+h3 {
+  color: white;
+  margin-block-end: 0.5rem;
+}
+
+.center {
+  margin-inline: auto;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.border-radius {
+  border: none;
+  border-radius: 100vw;
+}
+
+.width-input {
+  width: 7rem;
+}
+
+.padding {
+  padding: 1rem 3rem;
+}
+
+.white {
+  color: white;
+}
+
+.submit-button {
+  display: block;
+  color: rgb(128, 122, 122);
+  background: white;
+  margin-block-start: 1.3rem;
+  margin-inline: auto;
+}
+
+input:hover,
+input:focus {
+  transition: 0.5s;
+  background-color: rgb(221, 215, 215);
+  border: none;
+}
+
+.padding-submit {
+  padding: 1rem;
+}
+
+.card {
+  position: relative;
+}
+
+.card::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20rem;
+  height: 40rem;
+  left: 32rem;
+  background-color: rgb(33, 177, 33);
+  border-radius: 1rem;
+  z-index: -1;
+  box-shadow: 0rem 0rem 0.7rem black;
+}
